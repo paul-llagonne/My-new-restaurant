@@ -1,0 +1,119 @@
+h1{
+	color: red;
+	font-size:50px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:lighter;
+	text-align:center
+	opacity:0.5;
+} 
+
+h2{
+	font-weight:bolder;
+	color: rgb(84, 115, 138);
+	font-size:15px;
+	font-family: 'Open Sans', sans-serif;
+	text-align:center;
+}
+
+#card-1 {
+	text-align:center;
+}
+
+body {
+	background: #7CD1B8;
+}
+
+.para {
+	font-family:Helevetica;
+	font-size:15px;
+	color:rgb(60, 60, 60);
+}
+
+a {
+	padding:6px;
+	border-radius:4px;
+	font-size:12px;
+	font-family: 'Open Sans', sans-serif;
+	display: inline;
+    position: relative;
+    text-transform: uppercase;
+    color: blue;
+    text-decoration: none;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    background: pink;
+}
+
+a:hover {
+	background: rgb(160, 160, 160);
+}
+
+h3 {
+	font-weight:bolder;
+	color: black;
+	font-size:18px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#img-circle {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.card-white {
+	background: #95D1CC;
+	padding: 30px; 
+	border-radius: 4px; 
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	margin: 0px auto;
+	width: 700px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+form {
+	margin:0px auto;
+}
+
+.banner {
+  /* 1. Set a background image */
+  background-image: url(https://bordeaux-sympa.com/wp-content/uploads/2019/11/4-1024x569.png);   
+  /* 2. Make the background image cover the banner div */
+	background-size: cover;     
+  /* 3. Center the image */
+	background-position: center;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+	padding: 20px;
+}
+.card img {
+  width: 150px;
+}
+.card h3 {
+  flex-grow: 1;
+  padding-left: 15px;
+}
+
+.cards {
+  display: flex;
+	flex-wrap: wrap;
+}
+.card{
+  flex-basis: 250px;
+	flex-grow: 1;
+	margin: 10px;
+}
+
+#form{
+	text-align:center;
+	margin:auto;
+	padding:20px;
+}
